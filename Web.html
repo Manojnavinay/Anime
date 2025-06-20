@@ -1,7 +1,36 @@
-<DOCTYPE html>
-  <html>
-    <body>
-      <iframe width="960" height="540" src="https://www.analdin.com/embed/589623" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-    </body>
-  </html>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            padding: 20px;
+            text-align: center;
+        }
+        video {
+            width: 80%;
+            max-width: 600px;
+            margin: 20px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Video Gallery</h1>
+
+    <!-- Replace the video src URL below with your actual GitHub raw URLs -->
+    <video controls>
+        <source src="https://raw.githubusercontent.com/USERNAME/REPO-NAME/BRANCH/video/video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <video controls>
+        <source src="https://raw.githubusercontent.com/USERNAME/REPO-NAME/BRANCH/video/video2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
